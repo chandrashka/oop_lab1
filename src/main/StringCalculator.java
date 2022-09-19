@@ -18,8 +18,6 @@ public class StringCalculator {
             List<Integer> numbers_array = findNumbers(numbers, delimiters);
             result = sum(numbers_array, result);
         }
-
-
         return result;
     }
 
